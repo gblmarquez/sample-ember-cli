@@ -1,3 +1,16 @@
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/vendor/*
+
+# misc
+/.sass-cache
+/connect.lock
+.DS_Store
+Thumbs.db
+
 # Logs
 logs
 *.log

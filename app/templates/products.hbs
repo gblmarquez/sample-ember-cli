@@ -1,0 +1,16 @@
+<h2>Products</h2>
+
+<table>
+	<th>
+		<td>id</td>
+		<td>nome</td>
+		<td>categoria</td>
+	</th>
+	{{#each}}
+		<tr>
+			<td>{{id}}</td>
+			<td>{{name}}</td>
+			<td>{{area_id.name}}</td>
+		</tr>		
+	{{/each}}
+</table>
