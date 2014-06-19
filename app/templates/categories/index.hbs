@@ -1,9 +1,16 @@
-<h2>CategoriesIndex</h2>
+<h2>CategoriesIndex__</h2>
 
 <ul>
 {{#each}}
 	<li>
 		{{name}}
+		<ul>
+		{{#each parishes}}
+			<li>
+				{{name}}
+			</li>
+		{{/each}}
+		</ul>
 	</li>
 {{/each}}
 </ul>
